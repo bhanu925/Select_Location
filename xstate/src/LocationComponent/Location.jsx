@@ -82,7 +82,7 @@ export default function Location() {
     </select>
 
     {cityName && stateName && countryName &&
-    <h3>You selected {cityName} {stateName} {countryName}</h3>
+    <p>You selected <strong>{cityName}</strong>, {stateName}, {countryName}</p>
 }
    </div>)
 }
